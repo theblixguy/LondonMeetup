@@ -10,9 +10,9 @@ This is the original source code of the app that I submitted. It's written purel
 
 ## LondonMeetup_V2
 
-This is a complete rewrite of the app in pure Kotlin. This uses Dagger for dependency injection, Retrofit for networking and Kotlin coroutines for asynchronous work. It's based on MVP + Clean Architecture. 
+This is a complete rewrite of the app in pure Kotlin. This uses **Dagger** for dependency injection, **Retrofit** for networking and **Kotlin coroutines** for asynchronous work. It's based on **MVP** + **Clean Architecture**. 
 
 This is a WORK IN PROGRESS. The code is divided into two packages - oldcode and newcode.
 
-* The **oldcode** package contains Kotlin code that hasn't been transitioned to MVP+Clean architecture.
-* The **newcode** package contains Kotlin code that either has been fully transition to MVP+Clean architecture, or is currently being transitioned.
+* The _oldcode_ package contains Kotlin code that hasn't been transitioned to MVP+Clean architecture.
+* The _newcode_ package contains Kotlin code that either has been fully transition to MVP+Clean architecture, or is currently being transitioned.
