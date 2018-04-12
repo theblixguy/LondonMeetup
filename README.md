@@ -1,6 +1,6 @@
 # LondonMeetup
 
-This is an app that I built as part of Coursework 1 for the U08971 Advanced Mobile Software Development module. You can find the coursework specification in the Specs folder.
+This is an app that I built as part of Coursework 1 for the U08971 Advanced Mobile Software Development module. You can find the coursework specification [here](U08971-CW1-SPEC.pdf).
 
 There are two folders - LondonMeetup and LondonMeetup_v2. 
 
