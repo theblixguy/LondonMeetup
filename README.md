@@ -15,4 +15,4 @@ This is a complete rewrite of the app in pure Kotlin. This uses **Dagger** for d
 This is a WORK IN PROGRESS. The code is divided into two packages - oldcode and newcode.
 
 * The _oldcode_ package contains Kotlin code that hasn't been transitioned to MVP+Clean architecture.
-* The _newcode_ package contains Kotlin code that either has been fully transition to MVP+Clean architecture, or is currently being transitioned.
+* The _newcode_ package contains Kotlin code that either has been fully transitioned to MVP+Clean architecture, or is currently being transitioned.
