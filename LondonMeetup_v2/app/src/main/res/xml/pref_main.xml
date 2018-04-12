@@ -1,0 +1,52 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/title_preference_category_main">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="showTubeStopsPreference"
+            android:summary="@string/preference_tube_stop_summary"
+            android:title="@string/preference_tube_stop_title" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="showBusStopsPreference"
+            android:summary="@string/preference_bus_stop_summary"
+            android:title="@string/preference_bus_stop_title" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="showCycleStopsPreference"
+            android:summary="@string/preference_cycle_stop_summary"
+            android:title="@string/preference_cycle_stop_title" />
+        <SeekBarPreference
+            android:key="stopsMaxRadiusPreference"
+            android:title="@string/preference_stop_radius_title"
+            android:summary="@string/preference_stop_radius_summary"
+            android:max="10"
+            android:defaultValue="2" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Friends">
+        <Preference
+            android:key="yourNamePreference"
+            android:title="Display name"
+            android:summary="Your name as seen by your friends" />
+        <Preference
+            android:key="yourMobileNumberPreference"
+            android:title="Mobile number"
+            android:summary="Your mobile number" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_preference_category_debug">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="useMockLocationPreference"
+            android:summary="@string/preference_mock_location_summary"
+            android:title="@string/preference_mock_location_title" />
+    </PreferenceCategory>
+    <Preference
+        android:key="showPlacePickerPreference"
+        android:summary="@string/preference_place_picker_summary"
+        android:title="@string/preference_place_picker_title">
+    </Preference>
+    <Preference
+        android:key="showCoordinatesInputPreference"
+        android:summary="@string/preference_coordinate_input_summary"
+        android:title="@string/preference_coordinate_input_title">
+    </Preference>
+</PreferenceScreen>
