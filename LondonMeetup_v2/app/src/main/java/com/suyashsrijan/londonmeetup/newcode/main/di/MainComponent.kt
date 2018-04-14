@@ -9,5 +9,5 @@ import dagger.Subcomponent
 @Subcomponent(modules = [(MainModule::class)])
 interface MainComponent {
     fun inject(mainPresenter: MainPresenterImpl)
-    fun inject(homeActivity: MainActivity)
+    fun inject(mainActivity: MainActivity)
 }
